@@ -12,7 +12,7 @@ Top 2 methods will have 90% guarantee you to reach me within 1 week, as long as 
 ### Keybase
   Use Keybase to message me if you want to. Now I do open keybase everyday, but... Well, maybe I won't when you want to contact me.
 ### E-mail
-  Go to a OpenPGP key server and search key 0x48900cf37a846f72. This is my public key, which contains my E-mail. Remember to encrypt using this key, otherwise you may not receive a reply.
+  Go to a OpenPGP key server (like [this](https://pgp.mit.edu/)) and search key 0x48900cf37a846f72. This is my public key, which contains my E-mail. Remember to encrypt using this key, otherwise you may not receive a reply.
 ### QQ, Phone, Wechat, address, cable address, etc...
   Sorry but I will not share these important information publicly. Of course if you search axmmisaka on Google it may appear, I haven't tried that yet. However, if you think it is necessary to know any of these stuff, please let me know by other contact methods.
 ### Baidu Tieba
