@@ -74,7 +74,7 @@ print(memorization(1,1))
 Some of you may easily come out with the DP transition equation (as we call it in Chinese), shown below.  
 ```
 dp[x][y] = list[x][y]+max(dp[x+1][y],dp[x+1][y+1])
-```\n
+```  
 The "dp" here is the same thing as arr in memorization. It means the biggest route sum starting from (x,y) is the current number add the biggest route sum of such thing of two "next step".  
 And from the recurrsion (or memorization if you want), you'll find out that the only nodes that does not require the dp data from other node is at the last row, and their dp value are themself.   
 Then you'll find no recursion is required, and this is probably(I use this  word because I am not sure also) what we call "Dynamic Programming".  
