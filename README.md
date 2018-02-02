@@ -1,5 +1,10 @@
 # axmmisaka.github.io
 
+## Something
+These links are updated manually, so don't be surprised if it has some error.  
+[Dynamic Programming](axmmisaka.github.io/dp/)
+
+
 ## Who I am
   You may see my profile [here](https://github.com/axmmisaka). Of course you won't find something useful, but you can just find within 2100+ people if you wanna find me.
   Unfortunately, that's *almost* everything I want to tell you about who I am.
