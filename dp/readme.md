@@ -9,7 +9,7 @@ All contents are written by me and is released under CC-BY-NC-ND 4.0 Intl'. Howe
 ## Classic Pyramid Problem
 This problem can be find on many OJ websites, such as USACO training.  
 Well, here's the question: you got a Pyramid made by number like this:  
-```
+```plain
     1
    4 5
   7 8 9
@@ -20,13 +20,13 @@ From the top number, each time you can go down and go left or right. What you ne
 
 ### Simplifying the problem
 For a pyramid like this:
-```
+```plain
   1
  2 3
 4 5 6
 ```
 We can rewrite it like this and assign them some number:  
-```
+```plain
   0 1 2 3 4
 0 0 0 0 0 0
 1 0 1 0 0 0
@@ -40,7 +40,7 @@ Also, you may notify now you can go down or go downright now.
 
 ### Brute-force solution
 The brute-force solution is very easy to consider and implement - using recursion.  
-```
+```python
 MAXN = 5
 def brute_force(x, y):
 	if x==MAXN:
@@ -58,7 +58,7 @@ Let us define a list, `arr[x][y]`, that stores the max-sum route starting from (
 When calling memorization(), we will check if `arr[x][y]` is calculated. If so, we use it, otherwise we calculate it.  
 We initially set all arr to -1.  
 Here's the code:
-```
+```python
 MAXN = 5
 def memorization(x, y):
 	if x==MAXN:
@@ -72,14 +72,14 @@ print(memorization(1,1))
 
 ### Dynamic Programming
 Some of you may easily come out with the DP transition equation (as we call it in Chinese), shown below.  
-```
+```python
 dp[x][y] = list[x][y]+max(dp[x+1][y],dp[x+1][y+1])
 ```  
 The "dp" here is the same thing as arr in memorization. It means the biggest route sum starting from (x,y) is the current number add the biggest route sum of such thing of two "next step".  
 And from the recurrsion (or memorization if you want), you'll find out that the only nodes that does not require the dp data from other node is at the last row, and their dp value are themself.   
 Then you'll find no recursion is required, and this is probably(I use this  word because I am not sure also) what we call "Dynamic Programming".  
 Here's the code:
-```
+```python
 for foo in range(1,MAXN+1):
 	for bar in range(1,MAXN+1):
 		dp[foo][bar] = list[foo][bar] + max(dp[foo + 1][bar], dp[foo + 1][bar + 1])
