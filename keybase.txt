@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/axmmisaka
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://axmmisaka.github.io
+  * I am axmmisaka (https://keybase.io/axmmisaka) on keybase.
+  * I have a public key ASD2tnRTMG4NA7ssNK2M2rPyEavs2rSSPpuZjv88RZ0GoAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206a2031b50622105a1a42cbe27215f5e2f566071b6ae788f922ab5823e55e50fe0a",
+      "host": "keybase.io",
+      "kid": "0120f6b67453306e0d03bb2c34ad8cdab3f211abecdab4923e9b998eff3c459d06a00a",
+      "uid": "125c7acc143facc7600cc930927f4819",
+      "username": "axmmisaka"
+    },
+    "merkle_root": {
+      "ctime": 1502240706,
+      "hash": "f0225900922068217aae2a52815b4ffd007dd115dd91e6a838f00de09201312233032ab1ac32fdd83c1bebf13ac5625035e2045af1b2a5646abf94cf283c0ef1",
+      "hash_meta": "3e7db9d08fe6ae7f6a93b8f268ec792a8a3620e2f8bb4453bd8f5463c7aae40e",
+      "seqno": 1314186
+    },
+    "service": {
+      "hostname": "axmmisaka.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.26"
+  },
+  "ctime": 1502240774,
+  "expire_in": 504576000,
+  "prev": "909b400d4ec6925426ee62554e278338c64289345dbf1f405f11d17fd89256fd",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9rZ0UzBuDQO7LDStjNqz8hGr7Nq0kj6bmY7/PEWdBqAKp3BheWxvYWTFA017ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNmEyMDMxYjUwNjIyMTA1YTFhNDJjYmUyNzIxNWY1ZTJmNTY2MDcxYjZhZTc4OGY5MjJhYjU4MjNlNTVlNTBmZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjZiNjc0NTMzMDZlMGQwM2JiMmMzNGFkOGNkYWIzZjIxMWFiZWNkYWI0OTIzZTliOTk4ZWZmM2M0NTlkMDZhMDBhIiwidWlkIjoiMTI1YzdhY2MxNDNmYWNjNzYwMGNjOTMwOTI3ZjQ4MTkiLCJ1c2VybmFtZSI6ImF4bW1pc2FrYSJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwMjI0MDcwNiwiaGFzaCI6ImYwMjI1OTAwOTIyMDY4MjE3YWFlMmE1MjgxNWI0ZmZkMDA3ZGQxMTVkZDkxZTZhODM4ZjAwZGUwOTIwMTMxMjIzMzAzMmFiMWFjMzJmZGQ4M2MxYmViZjEzYWM1NjI1MDM1ZTIwNDVhZjFiMmE1NjQ2YWJmOTRjZjI4M2MwZWYxIiwiaGFzaF9tZXRhIjoiM2U3ZGI5ZDA4ZmU2YWU3ZjZhOTNiOGYyNjhlYzc5MmE4YTM2MjBlMmY4YmI0NDUzYmQ4ZjU0NjNjN2FhZTQwZSIsInNlcW5vIjoxMzE0MTg2fSwic2VydmljZSI6eyJob3N0bmFtZSI6ImF4bW1pc2FrYS5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yNiJ9LCJjdGltZSI6MTUwMjI0MDc3NCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI5MDliNDAwZDRlYzY5MjU0MjZlZTYyNTU0ZTI3ODMzOGM2NDI4OTM0NWRiZjFmNDA1ZjExZDE3ZmQ4OTI1NmZkIiwic2Vxbm8iOjEzLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQLqAECCXozYjohwpsqg3y5wZckpHaD4SJVaSiJnyklifiLklHceU9ycecsY/nDQecRU1qPCdggeOcQUmoRj4Rwyoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAd66NP8WnwVNtnLlar3AumXp/Vms/YU+ezV+op/KS8jaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/axmmisaka
+
+==================================================================

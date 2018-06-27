@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="en">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.2 -->
+    <script>
+        window.materialVersion = "1.5.2"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            about | 
+        
+        axmmisaka&#39;s website
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/images/favicon.png">
+    <link rel="icon" href="/images/favicon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="Quarterback, Midfielder, Program, Anime">
+    <meta name="keywords" content="">
+    <meta name="theme-color" content="#0097A7">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.en.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/css/material.min.css",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/css/style.min.css",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+            
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.proxy.ustclug.org/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/css/material-icons.css",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/js/jquery.min.js", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="axmmisaka&#39;s website">
+    <meta name="msapplication-starturl" content="http://axmmisaka.github.io/about/">
+    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="axmmisaka&#39;s website">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/images/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://axmmisaka.github.io/about/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="about | axmmisaka&#39;s website">
+    <meta property="og:image" content="/images/favicon.png">
+    <meta property="og:description" content="Quarterback, Midfielder, Program, Anime">
+    
+
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="http://axmmisaka.github.io/about/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+
+    
+
+    <!-- Analytics -->
+    
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-114036284-1', 'auto');ga('send', 'pageview');
+</script>
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/images/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                about
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/images/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Frank X. Blackburn(axmmisaka)</strong>
+        <span>Mar 06, 2018</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>Well… Here’s something about me. It’s not an introduction, because you probably won’t get information you want; and don’t treat this as an résumé - this is quite informal, and no résumé will tell you about why I don’t like to use GNU/emacs (salute to you, RMS).</p>
+<h2 id="Me"><a href="#Me" class="headerlink" title="Me"></a>Me</h2><p>Frank X. Blackburn - of course this is not my offical Chinese name - and nobody will post his/her real name or home address online nowadays because of cyberbullying etc… </p>
+<h2 id="What-do-I-do"><a href="#What-do-I-do" class="headerlink" title="What do I do?"></a>What do I do?</h2><p>I am a student - so study will be my no.1 priority, which… well, isn’t always satisfying as expected.</p>
+<p>Referee - National Class II referee of Chinese Football Association. Not sure if the US Soccer Referee Associations will accept this, but let’s hope that happens.</p>
+<p>Translator - I do translations for local Football Association, osu!, a rhythm game which is very hard, and something else that I want to translate. See one of my post about this.</p>
+<p>Programmer - not a job, just means “a guy who can write some kind of code”.</p>
+<p>Free Safety and Midfielder - I play American Football and Soccer (Association Football) quite often. These two are positions that I often play. I do play other positions such as WR in football or CB in soccer, but not as often.</p>
+<p>Teitoku - Yes… I play Kantai Collection… used to. It’s just too time-consuming.</p>
+<h2 id="Education"><a href="#Education" class="headerlink" title="Education"></a>Education</h2><p>Still in high school now. Don’t really want to indicate which one it is.</p>
+<p>Hope I can enter my dream school in the US.</p>
+<p>This page, as you can see in the git commit history, is created after staying up late studying for SAT. This rearly happens, but it’s really bad for your health!</p>
+<h2 id="Projects"><a href="#Projects" class="headerlink" title="Projects"></a>Projects</h2><p>Some are big and some are not.</p>
+<h3 id="Auto-face-remove"><a href="#Auto-face-remove" class="headerlink" title="Auto face remove"></a>Auto face remove</h3><p>It helps you to find all the faces in given pictures and replace them with rage comic. Very useful when you want to publish your photos online without letting others see you face.<br><a href="https://github.com/axmmisaka/autoFaceRemove" target="_blank" rel="noopener">https://github.com/axmmisaka/autoFaceRemove</a></p>
+<h3 id="Botball-repo"><a href="#Botball-repo" class="headerlink" title="Botball repo"></a>Botball repo</h3><p>This is the repo that we use for GCER2017(Global Conference for Educational Robots).<br>I maintained it and it works well.<br><a href="https://github.com/axmmisaka/botball2017_qdez" target="_blank" rel="noopener">https://github.com/axmmisaka/botball2017_qdez</a></p>
+<h3 id="Fight-the-Landlord"><a href="#Fight-the-Landlord" class="headerlink" title="Fight the Landlord"></a>Fight the Landlord</h3><p>Classic poker game from China with AI in Python, a collab Final project for UCBerkely CS10 Summer17.<br><a href="https://github.com/axmmisaka/fightthelandlord" target="_blank" rel="noopener">https://github.com/axmmisaka/fightthelandlord</a></p>
+<h3 id="Node"><a href="#Node" class="headerlink" title="Node"></a>Node</h3><p>A very simple and poorly-designed linked list implementation that was written when I was in primary school.<br><a href="https://github.com/axmmisaka/node_1" target="_blank" rel="noopener">https://github.com/axmmisaka/node_1</a></p>
+<h3 id="Website-for-MUN-Association"><a href="#Website-for-MUN-Association" class="headerlink" title="Website for MUN Association"></a>Website for MUN Association</h3><p>//It is removed because I don’t have enough money to maintain the server while there’s no need for it.<br>//Build using wordpress with PHP, ask me if you want a shadowcopy.<br>2018-Apr-01 update:<br>It’s now online: click <a href="https://himun.qdezmun.org/" target="_blank" rel="noopener">here</a> to view it.<br>It only has Chinese pages now.</p>
+<h2 id="Languages"><a href="#Languages" class="headerlink" title="Languages"></a>Languages</h2><p>I can use Chinese fluently. I can also speak intermediate English and a little Russian.<br>I can also use C, a little C++, Python, a little Java and a little Pascal.</p>
+<h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><p>See <a href="/contact">here</a>.</p>
+
+        
+                <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
+                    <p><strong>
+                         
+                            This blog is released under CC-BY-NC-ND 4.0 Unported License
+                        </strong>
+                        <br>
+                        <strong>Link to this article: </strong><a href="http://axmmisaka.github.io/about/index.html">http://axmmisaka.github.io/about/index.html</a>
+                    </p>
+                </blockquote>
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/images/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/images/avatar.png" alt="Frank X. Blackburn(axmmisaka)'s avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                Home
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    Archives
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2018/06/">June 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/05/">May 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/02/">February 2018<span class="sidebar_archives-count">2</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                Categories
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                
+            </ul>
+        </li>
+        
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="contact" title="Contact">
+                
+                    <i class="material-icons sidebar-material-icons">phone</i>
+                
+                Contact
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="about" title="About">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                About
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="timeline" title="Timeline">
+                
+                    <i class="material-icons sidebar-material-icons">timeline</i>
+                
+                Timeline
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="tags" title="Tags">
+                
+                    <i class="material-icons sidebar-material-icons">cloud</i>
+                
+                Tags
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            Theme - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/axmmisaka" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+    
+    <!-- V2EX -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>axmmisaka's website
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/js/lazyload.min.js", true)</script>
+
+
+
+    <script>lsloader.load("js_js","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/js/js.min.js", true)</script>
+
+
+
+    <script>lsloader.load("np_js","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/js/nprogress.js", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+    
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+        
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
